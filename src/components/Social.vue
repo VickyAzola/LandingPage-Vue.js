@@ -1,6 +1,3 @@
-<script setup>
-
-</script>
 
 <template>
     <div class="flex items-center lg:justify-start justify-center gap-x-3 mb-6">
