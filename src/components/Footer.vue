@@ -15,17 +15,17 @@ import Social from './Social.vue'
 
             <div>
                 <div class="flex items-start gap-x-3 mb-4">
-                    <img class="mt-1.5" :src="MapIcon" />
+                    <img class="mt-1.5" :src="MapIcon" alt="" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua
                     </p>
                 </div>
                 <div class="flex items-center gap-x-3 mb-4">
-                    <img class="" :src="PhoneIcon" />
+                    <img class="" :src="PhoneIcon" alt="" />
                     <p>+1-543-123-4567</p>
                 </div>
                 <div class="flex items-center gap-x-3">
-                    <img class="" :src="MailIcon" />
+                    <img class="" :src="MailIcon" alt="" />
                     <p>example@huddle.com</p>
                 </div>
             </div>
