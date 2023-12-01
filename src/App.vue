@@ -20,7 +20,7 @@
                 </p>
                 <ButtonPink text="Get Started For Free" class="my-10"/>
             </div>
-            <img class="mx-auto" :src="DevicesImg" alt="" />
+            <img class="mx-auto" :src="DevicesImg" alt="Devices" />
         </section>
     </div>
 
