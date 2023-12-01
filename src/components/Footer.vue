@@ -8,7 +8,7 @@ import Social from './Social.vue'
 
 <template>
 
-    <footer class="bg-[#00252e] text-white px-6 lg:px-20 pt-20 lg:pt-28 pb-4">
+    <footer class="bg-[#00252e] text-white px-6 lg:px-20 pt-28 lg:pt-36 pb-6">
         <img class="w-48 mb-4" :src="Logo" alt="Logo Huddle"/>
         
         <div class="lg:grid lg:grid-cols-3 lg:items-start lg:gap-x-12 lg:pb-8">
@@ -32,12 +32,12 @@ import Social from './Social.vue'
 
             <nav aria-label="Navigation Footer" class="my-10 lg:my-0">
                 <div class="lg:flex lg:justify-around">
-                    <div class="space-y-3 lg:sapce-y-0 mb-3">
+                    <div class="space-y-3 lg:sapce-y-0 mb-3 flex flex-col">
                         <a href="#" class="hover:underline">About Us</a>
                         <a href="#" class="hover:underline">What We Do</a>
                         <a href="#" class="hover:underline">FAQ</a>
                     </div>
-                    <div class="space-y-3 lg:sapce-y-0">
+                    <div class="space-y-3 lg:sapce-y-0 flex flex-col">
                         <a href="#" class="hover:underline">Career</a>
                         <a href="#" class="hover:underline">Blog</a>
                         <a href="#" class="hover:underline">Contact Us</a>

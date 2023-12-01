@@ -8,10 +8,11 @@
 </script>
 
 <template>
+    <main>
 
     <div class="bg-[#ebfbff] pb-8 bg-[url('./images/bg-hero-mobile.svg')] lg:bg-[url('./images/bg-hero-desktop.svg')]">
         <Header />
-    <main >
+    
         <section class="text-center mx-7 pt-16 lg:pt-10 text-[#00252e] lg:grid lg:grid-cols-2 lg:items-center lg:gap-x-8">
             <div class="lg:text-left lg:ml-12">
                 <h1 class="font-semibold text-3xl lg:text-5xl mb-6 lg:mr-8">Build The Community Your Fans Will Love</h1>
@@ -25,7 +26,7 @@
     </div>
 
     
-        <div class="relative bg-white min-h-min pt-10 pb-32 lg:pb-40"> 
+    <div class="relative bg-white min-h-min pt-10 lg:pt-24 pb-32 lg:pb-48"> 
         <CardMain
             img="./images/illustration-grow-together.svg"
             title="Grow Together"
@@ -33,8 +34,8 @@
                         Think of the insightful conversations you miss out on with a feedback form."
         />
 
-        <div class="p-4 shadow rounded-md mx-4 lg:mx-20 my-10 lg:grid lg:grid-cols-2 lg:items-center">
-            <img :src=FlowingImg class="lg:max-w-[25rem] lg:m-auto" alt="" />
+        <div class="p-6 shadow rounded-md mx-4 lg:mx-20 my-10 lg:grid lg:grid-cols-2 lg:items-center">
+            <img :src=FlowingImg class="lg:max-w-[28rem] lg:pl-4 lg:m-auto" alt="" />
             <div class="text-center lg:text-left py-4 lg:px-10">
                 <h2 class="my-3 text-2xl font-bold text-[#00252e]">Flowing Conversations</h2>
                 <p class="text-[#808d99]">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
@@ -49,11 +50,12 @@
                         This means, once signed in to your app, your users can start chatting immediately."
         />
 
-        <section class="absolute bg-white py-8 px-6  max-w-[21rem] lg:max-w-[50rem] bottom-[-3%] lg:bottom-[-6%] rounded-lg text-center mx-auto inset-x-0 shadow-lg">
+        <section class="absolute bg-white py-8 px-6  max-w-[21rem] lg:max-w-[50rem] bottom-[-5%] lg:bottom-[-6%] rounded-lg text-center mx-auto inset-x-0 shadow-lg">
             <h3 class="mb-6 font-bold text-lg lg:text-2xl text-[#00252e]">Ready To Build Your Community?</h3>
             <ButtonPink text="Get Started For Free" />
         </section>
-        </div>
+    </div>
+
     </main>
     
     <Footer/>
