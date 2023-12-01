@@ -34,7 +34,7 @@
         />
 
         <div class="p-4 shadow rounded-md mx-4 lg:mx-20 my-10 lg:grid lg:grid-cols-2 lg:items-center">
-            <img :src=FlowingImg class="lg:max-w-[25rem] lg:m-auto"/>
+            <img :src=FlowingImg class="lg:max-w-[25rem] lg:m-auto" alt="" />
             <div class="text-center lg:text-left py-4 lg:px-10">
                 <h2 class="my-3 text-2xl font-bold text-[#00252e]">Flowing Conversations</h2>
                 <p class="text-[#808d99]">You wouldn't paginate a conversation in real life, so why do it online? Our threads 
