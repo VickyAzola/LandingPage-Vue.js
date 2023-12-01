@@ -11,7 +11,7 @@
 
     <div class="bg-[#ebfbff] pb-8 bg-[url('./images/bg-hero-mobile.svg')] lg:bg-[url('./images/bg-hero-desktop.svg')]">
         <Header />
-
+    <main >
         <section class="text-center mx-7 pt-16 lg:pt-10 text-[#00252e] lg:grid lg:grid-cols-2 lg:items-center lg:gap-x-8">
             <div class="lg:text-left lg:ml-12">
                 <h1 class="font-semibold text-3xl lg:text-5xl mb-6 lg:mr-8">Build The Community Your Fans Will Love</h1>
@@ -20,11 +20,12 @@
                 </p>
                 <ButtonPink text="Get Started For Free" class="my-10"/>
             </div>
-            <img class="mx-auto" :src="DevicesImg" />
+            <img class="mx-auto" :src="DevicesImg" alt="" />
         </section>
     </div>
 
-    <main class="relative bg-white min-h-min pt-10 pb-32 lg:pb-40">
+    
+        <div class="relative bg-white min-h-min pt-10 pb-32 lg:pb-40"> 
         <CardMain
             img="./images/illustration-grow-together.svg"
             title="Grow Together"
@@ -52,6 +53,7 @@
             <h3 class="mb-6 font-bold text-lg lg:text-2xl text-[#00252e]">Ready To Build Your Community?</h3>
             <ButtonPink text="Get Started For Free" />
         </section>
+        </div>
     </main>
     
     <Footer/>
