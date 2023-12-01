@@ -54,7 +54,7 @@ import Social from './Social.vue'
         
         <p class="text-xs text-center mt-4 text-[#808d99]">
             Challenge by <a class="font-bold hover:text-white" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a class="font-bold hover:text-white" href="#" target="_blank">Victoria Azola</a>.
+            Coded by <a class="font-bold hover:text-white" href="https://github.com/VickyAzola/LandingPage-Vue.js" target="_blank">Victoria Azola</a>.
         </p>
     </footer>
     
