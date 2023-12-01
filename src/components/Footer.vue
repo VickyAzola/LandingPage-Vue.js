@@ -31,18 +31,18 @@ import Social from './Social.vue'
             </div>
 
             <nav aria-label="Navigation Footer" class="my-10 lg:my-0">
-                <ul class="lg:flex lg:justify-around">
+                <div class="lg:flex lg:justify-around">
                     <div class="space-y-3 lg:sapce-y-0 mb-3">
-                        <li><a href="#" class="hover:underline">About Us</a></li>
-                        <li><a href="#" class="hover:underline">What We Do</a></li>
-                        <li><a href="#" class="hover:underline">FAQ</a></li>
+                        <a href="#" class="hover:underline">About Us</a>
+                        <a href="#" class="hover:underline">What We Do</a>
+                        <a href="#" class="hover:underline">FAQ</a>
                     </div>
                     <div class="space-y-3 lg:sapce-y-0">
-                        <li><a href="#" class="hover:underline">Career</a></li>
-                        <li><a href="#" class="hover:underline">Blog</a></li>
-                        <li><a href="#" class="hover:underline">Contact Us</a></li>
+                        <a href="#" class="hover:underline">Career</a>
+                        <a href="#" class="hover:underline">Blog</a>
+                        <a href="#" class="hover:underline">Contact Us</a>
                     </div>
-                </ul>
+                </div>
             </nav>
 
             <div class="lg:flex lg:flex-col h-full justify-between">
